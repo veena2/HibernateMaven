@@ -25,7 +25,7 @@ public class HibernateMain
          p.setBrand("Samsung");
          p.setPrice(400000);
          s.save(p);
-    	
+    	System.out.println("Product is saved");
     	t.commit();
     	s.close();
     }
